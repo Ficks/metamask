@@ -13,6 +13,10 @@ export default new Router({
     name: 'purchase',
     component: resolve => require(['@/components/purchase.vue'], resolve)
   }, {
+    path: '/login',
+    name: 'login',
+    component: resolve => require(['@/components/login.vue'], resolve)
+  }, {
     path: '/purchasesubmit',
     name: 'purchasesubmit',
     component: resolve => require(['@/components/purchasesubmit.vue'], resolve)

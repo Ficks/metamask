@@ -85,7 +85,7 @@ export default {
   methods: {
     submit() {
       this.$router.push({
-        path: "/purchase"
+        path: "/login"
       });
     }
   }
